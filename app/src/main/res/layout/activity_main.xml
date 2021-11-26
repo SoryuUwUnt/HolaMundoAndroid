@@ -2,40 +2,48 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonftam"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Suma"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="71dp" />
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="238dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="29dp">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Resta"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="145dp" />
+        <Button
+            android:id="@+id/buttonSuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suma" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Multiplicación"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="206dp" />
+        <Button
+            android:id="@+id/buttonResta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resta" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="División"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="272dp" />
+        <Button
+            android:id="@+id/buttonMultiplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplicación" />
+
+        <Button
+            android:id="@+id/buttonDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="División" />
+
+        <Button
+            android:id="@+id/buttonft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pies a metros" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

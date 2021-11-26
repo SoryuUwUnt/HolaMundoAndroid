@@ -9,6 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HolaMundoAndroid">
+
+        <activity
+            android:name=".DivisionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MultiplicacionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RestaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SumaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FtActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
